@@ -1,58 +1,94 @@
 
-# SoloLivingGPT
+# 🌟 **SoloLivingGPT**
 
-## Estrutura do Projeto
+## 🧩 Sobre o Projeto
 
-```plaintext
-SoloLivingGPT/
-│
-├── APIs/                             # Diretório principal para APIs
-│   ├── planejamento_financeiro_api/  # API de Planejamento Financeiro
-│   │   ├── _hidden/                  # Arquivos ocultos (ex.: .env)
-│   │   ├── app/                      # Código principal da aplicação
-│   │   │   ├── __init__.py
-│   │   │   ├── main.py               # Ponto de entrada da API
-│   │   │   ├── models.py             # Definição de modelos e entidades
-│   │   │   ├── routes.py             # Configuração de rotas da API
-│   │   │   ├── services.py           # Lógica de negócios
-│   │   │   ├── test_api.py           # Testes automatizados
-│   │   │   └── database.py           # Configuração do banco de dados
-│   │   ├── config/
-│   │   │   ├── settings.py           # Configurações da aplicação
-│   │   │   └── .gitignore            # Ignorar arquivos sensíveis
-│   │   ├── banco.db                  # Banco de dados SQLite (se utilizado)
-│   │   ├── requirements.txt          # Dependências do projeto Python
-│   │   └── README.md                 # Documentação da API
-│
-├── docs/                             # Documentação geral do projeto
-│   ├── Guia_Planejamento_Financeiro.md
-│   └── Guia_Instalacao_Projeto.md
-│
-├── tests/                            # Testes gerais (separados por API ou funcionalidade)
-│   ├── test_integracao.py
-│   ├── test_unidade.py
-│   └── fixtures.py                   # Dados de teste reutilizáveis
-│
-├── README.md                         # Documentação principal do projeto
-├── .gitignore                        # Arquivos/pastas a serem ignorados pelo Git
-└── LICENSE                           # Licença do projeto
-```
+O **SoloLivingGPT** é um projeto ambicioso e modular que visa ajudar pessoas a alcançarem independência e organização em suas vidas. O propósito final é criar um **GPT personalizado**, capaz de interagir com as APIs desenvolvidas neste repositório e oferecer assistência prática em diversas áreas do cotidiano.
+
+Este GPT será projetado para funcionar como um guia, mentor e ferramenta multifuncional, com foco em:
+- 💰 **Planejamento financeiro**
+- 🏙️ **Sobrevivência urbana**
+- 🗂️ **Organização pessoal**
+
+Seu objetivo principal é auxiliar pessoas que desejam ou precisam sair da casa dos pais, enfrentando os desafios de morar sozinhas, muitas vezes sem apoio familiar ou psicológico próximo.
 
 ---
 
-## Atualizações Realizadas
+## 🎯 Objetivos
 
-1. **Renomeação do projeto**:
-   - Nome alterado para **SoloLivingGPT** em toda a estrutura.
+### **Criar um GPT Personalizado**
+- 🤖 Capaz de interagir com as APIs para fornecer respostas precisas e personalizadas.
+- 🛠️ Oferecer suporte em planejamento financeiro, organização e sobrevivência urbana.
+- 🏡 Focado em ajudar pessoas a lidar com os desafios de morar sozinhas, como organização doméstica, administração de finanças e autocuidado.
 
-2. **Organização de APIs**:
-   - Pasta `APIs` centraliza todas as APIs desenvolvidas, começando pela API de Planejamento Financeiro.
+### **Planejamento Financeiro**
+- 📊 Gerenciamento de despesas e receitas.
+- 📈 Geração de relatórios financeiros automáticos e personalizados.
+- 🔄 Integração com aplicativos para sincronizar dados financeiros.
 
-3. **Separação de Documentação**:
-   - Diretório `docs` criado para armazenar guias e explicações do projeto.
+### **Organização e Sobrevivência Urbana**
+- 🗓️ Ferramentas que auxiliem na organização do cotidiano.
+- 📋 Recursos para planejamento de saídas independentes, como dicas práticas e listas essenciais.
+- 🧠 Apoio psicológico básico e recomendações para buscar ajuda profissional, se necessário.
 
-4. **Inclusão de Testes**:
-   - Diretório `tests` para centralizar testes de unidade e integração.
+### **Automação e Integração**
+- 🌐 Uso de APIs modulares que comunicam entre si.
+- 📱 Integração com redes sociais e outras plataformas para melhorar a experiência do usuário.
 
-5. **Git Configurado**:
-   - Adicionado `.gitignore` para ignorar arquivos sensíveis (como `.env` e `*.pyc`).
+---
+
+## 🛠️ Estrutura
+
+Este repositório faz parte de um **projeto central** no GitHub, com organização modular para facilitar o desenvolvimento e a manutenção das APIs. 
+
+### 🧩 Módulos Planejados
+
+1. 💸 **planejamento_financeiro_api**: API para gerenciamento financeiro.
+2. ✅ **API de gestão de tarefas**: Controle de atividades e organização pessoal.
+3. 📦 **API de inventário doméstico**: Gestão de recursos e itens essenciais.
+4. 🚀 **Outros módulos futuros**: Planejados para expansão conforme o projeto evolui.
+
+---
+
+## 💻 Tecnologias Utilizadas
+
+- **Back-end**: 🐍 Python com FastAPI.
+- **Banco de Dados**: 🗄️ SQLite (possibilidade de expansão para outras tecnologias no futuro).
+- **Infraestrutura**:
+  - 📂 Versionamento com Git e GitHub.
+  - 🛠️ Modularidade no desenvolvimento das APIs.
+  - 🔗 Integração futura com APIs externas e redes sociais.
+
+---
+
+## 🤝 Como Contribuir
+
+1. 🍴 Faça um fork do repositório.
+2. 🌿 Crie uma branch para sua funcionalidade:
+   ```bash
+   git checkout -b feature/nova-funcionalidade
+   ```
+3. ✏️ Faça commit das suas alterações:
+   ```bash
+   git commit -m 'Adicionando nova funcionalidade'
+   ```
+4. 🚀 Envie para a branch principal:
+   ```bash
+   git push origin feature/nova-funcionalidade
+   ```
+5. 🔄 Abra um Pull Request.
+
+---
+
+## 📝 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
+
+## ✉️ Contato
+
+Autor: **Gustavo Attisano Vilella**  
+📧 E-mail: [gustavovilella38@gmail.com](mailto:gustavovilella38@gmail.com)
+
+> **Participe do desenvolvimento e ajude a construir um sistema que revolucionará a organização e sobrevivência urbana, tudo com o apoio de um GPT personalizado e integrado, especialmente voltado para aqueles que buscam independência e enfrentam os desafios de morar sozinhos!**
