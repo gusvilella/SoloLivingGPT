@@ -1,5 +1,5 @@
 
-# Planejamento Financeiro API
+# API de Planejamento Financeiro
 
 Uma API para auxiliar no planejamento financeiro pessoal.
 
