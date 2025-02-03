@@ -1,7 +1,5 @@
 
-# 🌟 **SoloLivingGPT**
-
-## 🧩 Sobre o Projeto
+# **SoloLivingGPT**
 
 O **SoloLivingGPT** é um projeto ambicioso e modular que visa ajudar pessoas a alcançarem independência e organização em suas vidas. O propósito final é criar um **GPT personalizado**, capaz de interagir com as APIs desenvolvidas neste repositório e oferecer assistência prática em diversas áreas do cotidiano.
 
@@ -9,12 +7,13 @@ Este GPT será projetado para funcionar como um guia, mentor e ferramenta multif
 - 💰 **Planejamento financeiro**
 - 🏙️ **Sobrevivência urbana**
 - 🗂️ **Organização pessoal**
+- ❓ **Outras features futuras**
 
 Seu objetivo principal é auxiliar pessoas que desejam ou precisam sair da casa dos pais, enfrentando os desafios de morar sozinhas, muitas vezes sem apoio familiar ou psicológico próximo.
 
 ---
 
-## 🎯 Objetivos
+## Objetivos
 
 ### **Criar um GPT Personalizado**
 - 🤖 Capaz de interagir com as APIs para fornecer respostas precisas e personalizadas.
@@ -41,19 +40,19 @@ Seu objetivo principal é auxiliar pessoas que desejam ou precisam sair da casa 
 
 Este repositório faz parte de um **projeto central** no GitHub, com organização modular para facilitar o desenvolvimento e a manutenção das APIs. 
 
-### 🧩 Módulos Planejados
+### Módulos Planejados
 
-1. 💸 **planejamento_financeiro_api**: API para gerenciamento financeiro.
+1. 💸 **API de planejamento financeiro**: API para gerenciamento financeiro.
 2. ✅ **API de gestão de tarefas**: Controle de atividades e organização pessoal.
 3. 📦 **API de inventário doméstico**: Gestão de recursos e itens essenciais.
 4. 🚀 **Outros módulos futuros**: Planejados para expansão conforme o projeto evolui.
 
 ---
 
-## 💻 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
-- **Back-end**: 🐍 Python com FastAPI.
-- **Banco de Dados**: 🗄️ SQLite (possibilidade de expansão para outras tecnologias no futuro).
+- **Back-end**: Python com FastAPI.
+- **Banco de Dados**: SQLite (possibilidade de expansão para outras tecnologias no futuro).
 - **Infraestrutura**:
   - 📂 Versionamento com Git e GitHub.
   - 🛠️ Modularidade no desenvolvimento das APIs.
@@ -63,20 +62,21 @@ Este repositório faz parte de um **projeto central** no GitHub, com organizaç�
 
 ## 🤝 Como Contribuir
 
-1. 🍴 Faça um fork do repositório.
-2. 🌿 Crie uma branch para sua funcionalidade:
+1.  *Faça um fork do repositório.*
+   
+3.  *Crie uma branch para sua funcionalidade:*
    ```bash
    git checkout -b feature/nova-funcionalidade
    ```
-3. ✏️ Faça commit das suas alterações:
+3.  *Faça commit das suas alterações:*
    ```bash
    git commit -m 'Adicionando nova funcionalidade'
    ```
-4. 🚀 Envie para a branch principal:
+4.  *Envie para a branch principal:*
    ```bash
    git push origin feature/nova-funcionalidade
    ```
-5. 🔄 Abra um Pull Request.
+5.  *Abra um Pull Request.*
 
 ---
 
@@ -90,5 +90,3 @@ Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 Autor: **Gustavo Attisano Vilella**  
 📧 E-mail: [gustavovilella38@gmail.com](mailto:gustavovilella38@gmail.com)
-
-> **Participe do desenvolvimento e ajude a construir um sistema que revolucionará a organização e sobrevivência urbana, tudo com o apoio de um GPT personalizado e integrado, especialmente voltado para aqueles que buscam independência e enfrentam os desafios de morar sozinhos!**
